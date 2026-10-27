@@ -1,0 +1,30 @@
+name: test-and-build
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run rules and campaign tests
+        run: node tests/sim.mjs
+      - name: Run UI smoke tests
+        run: node tests/ui-smoke.mjs
+      - name: Rebuild standalone HTML
+        run: node build.mjs
+      - name: Upload standalone HTML
+        uses: actions/upload-artifact@v4
+        with:
+          name: ashen-crown-standalone
+          path: |
+            index.html
+            灰烬王冠.html
