@@ -4,6 +4,11 @@
 
 > 同人作品。背景设定借用 Warhammer Fantasy，全部文本与代码为原创。
 
+[![test-and-build](https://github.com/MERCY-LIN/ashen-crown/actions/workflows/ci.yml/badge.svg)](https://github.com/MERCY-LIN/ashen-crown/actions/workflows/ci.yml)
+
+- **在线试玩**：<https://mercy-lin.github.io/ashen-crown/>
+- **GitHub 仓库**：<https://github.com/MERCY-LIN/ashen-crown>
+
 ---
 
 ## 快速开始
