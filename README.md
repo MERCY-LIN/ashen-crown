@@ -8,6 +8,7 @@
 
 - **在线试玩**：<https://mercy-lin.github.io/ashen-crown/>
 - **GitHub 仓库**：<https://github.com/MERCY-LIN/ashen-crown>
+- **单文件下载**：<https://github.com/MERCY-LIN/ashen-crown/releases/latest>
 
 ---
 
